@@ -1,0 +1,90 @@
+body {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(243, 118, 16, 0.829);
+}
+
+.container 
+{
+    position: relative;
+    height: 600px;
+    left: 0px;
+
+}
+
+.header 
+{
+    height: 140px;
+    width: 100%;
+    background-image: url("https://www.freepnglogos.com/uploads/guitar-png/guitar-png-image-png-transparent-best-photos-2.png");
+    background-size: 90px;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #070707;
+    padding-top: 50px;
+    font-size: 100px;
+    color: rgb(6, 6, 6);
+
+}
+
+.btn 
+{
+    position: absolute;
+    top: 45px;
+    right: 20px;
+
+}
+
+button 
+{
+    color: black;
+    height: 35px;
+    width: 100px;
+
+    background-image: linear-gradient(rgba(198, 198, 198, 0), rgb(235, 137, 9));
+    border-radius: 10px;
+
+
+}
+
+#data 
+{
+    width: 99%;
+    height: 450px;
+    text-align: right;
+    justify-content: center;
+    display: flex;
+
+}
+
+.table 
+{
+    width: 800px;
+
+}
+
+table 
+{
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: 700;
+
+}
+
+table tr :hover 
+{
+    background-color: lightgray;
+
+}
+
+img 
+{
+    clip-path: circle();
+}
+
+.welcome 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(81, 68, 87);
+    padding-top: 120px;
+}
